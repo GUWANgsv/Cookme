@@ -1,2 +1,2 @@
-#  recipe management system
+# Recipe management system
 Year 1 semester 2 Project
