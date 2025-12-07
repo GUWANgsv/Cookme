@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #061c58;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h1 {
+    padding: 10px 0px 20px 0px;
+}
+
+.container h3 {
+    color: white;
+    margin-top: 15px;
+}
+
+.list select, ul {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.list ul {
+    background-color: #3498db;
+}
+
+.sidebar li {
+    margin: 5px;
+    padding: 5px;  
+}
+
+.sidebar ul {
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    font-size: large;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.create-post {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.create-post:hover {
+    background-color: #218838;
+}
+
+#box1 {
+    background-color: darkblue;
+    color: white;
+}
+
+#box2 {
+    background-color: rgb(38, 235, 38);
+    color: white;
+}
+
+#box3 {
+    background-color: rgb(177, 177, 44);
+    color: white;
+}
+
+#box4 {
+    background-color: red;
+    color: white;
+}
+
+#box5 {
+    background-color: rgb(42, 178, 231);
+    color: white;
+}
+
+#box6 {
+    background-color: darkorange;
+    color: white;
+}
+
+#box7 {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-section {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+.table-section a {
+    color: #007bff;
+    text-decoration: none;
+}

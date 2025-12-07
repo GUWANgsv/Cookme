@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: 3% auto; 
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left; 
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#img1 {
+    margin: auto;
+    padding: auto;
+}
+
+.description {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.ingredients, .Method {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.ingredients ul {
+    margin: 0 auto; 
+    padding: 0; 
+    list-style-type: none; 
+}
+
+.ingredients li {
+    margin: 10px 0; 
+}
+
+.Method {
+    margin: 0 auto; 
+}
+
+.dif {
+    display: flex;
+    justify-content: left;
+}
+
+.dif input {
+    display: none;
+}
+
+#d {
+    text-align: justify;
+}
+
+.dif label {
+    color: rgb(255, 191, 0);
+    font-size: 40px;
+}
+
+.ingredients1 {
+    width: auto;
+}
+
+.method1 {
+    width: auto;
+    text-align: left;
+}
+
+.ingredients {
+    font-size: larger;
+    margin-top: 15px;
+}
+
+.method {
+    font-size: larger;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.add {
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.download {
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.add:hover {
+    background-color: #aa0e0e;
+}
+
+.download:hover {
+    background-color: #0056b3;
+}
+
+#time{
+    display: flex; 
+    gap: 100px;
+}

@@ -1,0 +1,138 @@
+body {
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.hero{
+    background-image: url('../image/hero.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+h2 {
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    padding-top: 170px;
+    padding-bottom: 180px;
+}
+
+h3 {
+
+    font-size: 45px;
+    text-align: center ;
+
+}
+
+.f_section {
+
+   display: flex ;
+   margin: 20px;
+   
+}
+
+.f_left {
+
+    background-color: rgb(160, 49, 123);
+    text-align: center ;
+    padding-top: 50px;
+    
+}
+
+.f_right {
+
+    flex : 1 ;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    padding: 40px;
+}
+
+.f_left , .f_right {
+
+    flex : 1 ;
+    background-color: #cfb6b6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    padding: 40px;
+    margin: 8px;
+}
+
+.form-container input , .form-container textarea {
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 5px;  
+}
+
+.form-container input:hover {
+
+    transform: scale(1.01); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.form-container input [type="reset"] , .form-container input [type="submit"] {
+
+    background-color: green;
+}
+
+.icon {
+
+    border: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    
+}
+
+.s_icon {
+
+    display: flex ;
+    padding-left: 140px;
+    
+}
+
+.social_sec {
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #dfb6e0;
+}
+
+#icon_fb {
+
+
+    margin-right: 20px;
+} 
+
+.icon img {
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.icon img:hover {
+
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.s_icon {
+    margin-left: 325px;
+}
+
+h4 {
+
+    text-align: center;
+    font-size: 24px;
+    color: #630707;
+}

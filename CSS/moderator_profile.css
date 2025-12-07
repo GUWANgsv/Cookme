@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+.profile-container {
+    margin: auto;
+    width: 30%;
+    padding: 20px 40px 20px 20px; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-picture input {
+    display: block;
+    margin: 10px auto;
+}
+
+.profile-details label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.profile-details input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#bio{
+    width: 500px;
+}
+
+.update {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.delete {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+.update:hover {
+    background-color: #0056b3;
+}
+
+.delete:hover {
+    background-color: #aa0e0e;
+}
+
+h1 {
+    text-align: center;
+}
+
